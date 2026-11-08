@@ -30,7 +30,7 @@ class DiceGame:
         total = roll1 + roll2
         result = self.evaluate_roll(total)
         return roll1, roll2, total, result
-        def main():
+def main():
     game = DiceGame()
 
     while True:
